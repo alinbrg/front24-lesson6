@@ -13,12 +13,88 @@ ul {
 img {
 	max-width: 100%;
 }
-header nav, header li{
+header nav,
+header li,
+header h1 {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 /*header*/
+header {
+	background-color: #152465;
+	padding: 20px;
+	margin-bottom: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
 
+.sticky {
+	position: sticky;
+	background-color: red;
+	padding: 20px;
+	top: 50px;
+	left: 0;
+}
+article,
+.article {
+	display: inline-block;
+	width: 25%;
+	margin: 0 30px;
+}
+article,
+.article {
+	position: relative;
+}
+
+article h2,
+.article h2 {
+	background-color: aqua;
+	padding: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+article p,
+.article p {
+	background-color: rgba(173, 216, 230, 0.5);
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
 /*section*/
+section {
+	max-width: 1640px;
+	width: 100%;
+	padding: 0 16px;
+	margin: auto;
 
+	margin-bottom: 20px;
+}
+
+.section {
+	margin-top: 100px;
+}
 /*footer*/
+footer {
+	background-color: #912020;
+	padding: 20px;
+}
+.container {
+	max-width: 1640px;
+	width: 100%;
+	padding: 0 16px;
+	margin: auto;
+}
+.dot {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 50%;
+}
