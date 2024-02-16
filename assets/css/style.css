@@ -13,3 +13,12 @@ ul {
 img {
 	max-width: 100%;
 }
+header nav, header li{
+	display: inline-block;
+}
+
+/*header*/
+
+/*section*/
+
+/*footer*/
